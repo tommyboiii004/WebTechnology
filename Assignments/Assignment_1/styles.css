@@ -4,7 +4,7 @@ body {
 }
 
 
-div {
+.box {
 
     height: 400px;
     border: 1px solid #000;
@@ -21,4 +21,8 @@ h1 {
 
 p {
     font-size: 120;
+}
+
+a {
+    color: black;
 }
