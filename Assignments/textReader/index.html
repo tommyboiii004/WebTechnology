@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>XML Reader</title>
+</head>
+
+<body>
+    <h1>Read Your XML files</h1>
+    <input type="file" id="xml-file-input">
+    <div id="file-content"></div>
+
+    <script>
+        function updateFileContent() {
+            const fileInput = document.getElementById('xml-file-input');
+            const selectedFile = fileInput.files[0];
+
+            if (selectedFile) {
+                // Specify the file name to send in the GET request
+                const fileName = selectedFile.name;
+
+                // Use AJAX to fetch the content of the selected XML file
+                const xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        const fileContent = xhr.responseXML;
+                        document.getElementById('file-content').innerText = new XMLSerializer().serializeToString(fileContent);
+                    }
+                };
+                xhr.open('GET', `viewer.php?file=${fileName}`, true);
+                xhr.send();
+            }
+        }
+
+        // Attach an event listener to the file input
+        document.getElementById('xml-file-input').addEventListener('change', updateFileContent);
+
+        // Initial content load
+        updateFileContent();
+
+        // Set up a timer to poll for changes every 1 second
+        setInterval(updateFileContent, 200);
+    </script>
+</body>
+
+</html>
