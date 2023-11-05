@@ -20,7 +20,9 @@
 .navbar ul {
     list-style-type: none;
     padding: 0;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .navbar li {
@@ -37,4 +39,11 @@
 
 .navbar a:hover {
     color: gray;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
 }
