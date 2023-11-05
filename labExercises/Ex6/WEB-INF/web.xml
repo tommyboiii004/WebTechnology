@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet-mapping>
+<servlet-name>creditCalculator</servlet-name>
+<url-pattern>/calCredit</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>creditCalculator</servlet-name>
+<servlet-class>creditCalc</servlet-class>
+</servlet>
+
+</web-app>
