@@ -10,4 +10,35 @@
 <servlet-class>creditCalc</servlet-class>
 </servlet>
 
+
+<servlet>
+<servlet-name>eval</servlet-name>
+<servlet-class>evaluvate</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>eval</servlet-name>
+<url-pattern>/evaluvate</url-pattern>
+</servlet-mapping>
+
+    <servlet>
+        <servlet-name>dataBase</servlet-name>
+        <servlet-class>db</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dataBase</servlet-name>
+        <url-pattern>/questions</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>learn</servlet-name>
+        <servlet-class>Learn</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>learn</servlet-name>
+        <url-pattern>/LaaI</url-pattern>
+    </servlet-mapping>
+
 </web-app>
