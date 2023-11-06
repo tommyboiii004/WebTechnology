@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/Ex7/script.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="/Ex7/index.html">Home</a></li>
+            <li><a href="LaaI.html">Learn about a Index</a></li>
+            <li><a href="Tat.html">Take a Test</a></li>
+            <li><a href="contactUs">Contact Us</a></li>
+            <li style="float: right;"><a href="#">Login</a></li>
+        </ul>
+    </div>
+
+    <div class="container flex">
+        <div class="facebook-page flex">
+            <div class="text">
+                <h1>Log In</h1>
+                <p>Login to your account to keep</p>
+                <p>track of your progress.</p>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center">
+                <form>
+                    <input type="email" placeholder="Email address or phone number" required id="email" />
+                    <input type="password" placeholder="Password" required id="password" />
+                    <div class="link">
+                        <button type="button" class="login" onclick="validateData()">
+                            Login
+                        </button>
+                        <a href="#" class="forgot">Forgotten password?</a>
+                    </div>
+                    <hr />
+                    <div class="button">
+                        <a href="#">Create new account</a>
+                    </div>
+                </form>
+                <p style="font-size: 0.95rem; margin-right: 0rem; padding: 2rem">
+                    <a href="#">Login to get </a>live updates about all investments and stocks.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
