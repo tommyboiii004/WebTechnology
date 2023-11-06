@@ -12,13 +12,23 @@
 
 
 <servlet>
-<servlet-name>aa</servlet-name>
+<servlet-name>eval</servlet-name>
 <servlet-class>evaluvate</servlet-class>
 </servlet>
 
 <servlet-mapping>
-<servlet-name>aa</servlet-name>
+<servlet-name>eval</servlet-name>
 <url-pattern>/evaluvate</url-pattern>
 </servlet-mapping>
+
+<servlet>
+        <servlet-name>dataBase</servlet-name>
+        <servlet-class>db</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dataBase</servlet-name>
+        <url-pattern>/questions</url-pattern>
+    </servlet-mapping>
 
 </web-app>
