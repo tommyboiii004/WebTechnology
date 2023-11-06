@@ -170,3 +170,71 @@ select {
 .tat input[type=submit]:hover {
     background-color: #171a50;
 }
+
+
+.feedbackForm {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.feedbackForm input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.feedbackForm input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.feedbackForm input[type=submit] {
+    width: 35%;
+    background-color: #090d4b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedbackForm textarea,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.feedbackForm input[type=submit]:hover {
+    background-color: #171a50;
+}
+
+
+.footer {
+    background-color: #090d4b;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
