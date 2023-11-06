@@ -10,4 +10,15 @@
 <servlet-class>creditCalc</servlet-class>
 </servlet>
 
+
+<servlet>
+<servlet-name>aa</servlet-name>
+<servlet-class>evaluvate</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>aa</servlet-name>
+<url-pattern>/evaluvate</url-pattern>
+</servlet-mapping>
+
 </web-app>
