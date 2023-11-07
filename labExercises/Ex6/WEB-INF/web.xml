@@ -63,4 +63,67 @@
         <url-pattern>/nasdaq</url-pattern>
     </servlet-mapping>
 
+
+<servlet>
+    <servlet-name>hidden</servlet-name>
+    <servlet-class>hidden</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>hidden</servlet-name>
+    <url-pattern>/hidden</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+    <servlet-name>hidden2</servlet-name>
+    <servlet-class>hidden2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>hidden2</servlet-name>
+    <url-pattern>/hidden2</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+    <servlet-name>url</servlet-name>
+    <servlet-class>url</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>url</servlet-name>
+    <url-pattern>/url</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>url2</servlet-name>
+    <servlet-class>url2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>url2</servlet-name>
+    <url-pattern>/url2</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+    <servlet-name>sessionId</servlet-name>
+    <servlet-class>sessionId</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>sessionId</servlet-name>
+    <url-pattern>/sessionId</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>sessionId2</servlet-name>
+    <servlet-class>sessionId2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>sessionId2</servlet-name>
+    <url-pattern>/sessionId2</url-pattern>
+    </servlet-mapping>
 </web-app>

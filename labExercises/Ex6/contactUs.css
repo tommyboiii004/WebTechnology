@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.navbar {
+    background-color: #090d4b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.call,
+.text,
+.mail {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.call input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.call input[type=submit] {
+    width: 100%;
+    background-color: #090d4b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.call input[type=submit]:hover {
+    background-color: #171a50;
+}
+
+.text input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.text input[type=submit] {
+    width: 100%;
+    background-color: #090d4b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.text input[type=submit]:hover {
+    background-color: #171a50;
+}
+
+.mail input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.mail input[type=submit] {
+    width: 100%;
+    background-color: #090d4b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mail input[type=submit]:hover {
+    background-color: #171a50;
+}

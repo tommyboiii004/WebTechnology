@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sessionTracking</title>
+    <link rel="stylesheet" href="contactUs.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/Ex7/index.html">Home</a></li>
+            <li><a href="/Ex7/LaaI.html">Learn about a Index</a></li>
+            <li><a href="/Ex7/Tat.html">Take a Test</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li style="float: right;"><a href="/Ex7/pages/login.html">Login</a></li>
+        </ul>
+    </div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <div style="display: flex; justify-content: space-around; align-items: center; flex-direction: column;">
+        <h1>Choose the method of Contact and press the button</h1>
+        <p>Before that kindly give us a few details</p>
+    </div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <div class="box">
+        <div class="call">
+            <form action="hidden" method="GET">
+                <h2>Reach out to us by Call</h2><br>
+                <label for="pressTheButton">Kindly enter your name: </label>
+                <input type="text" name="CuserName" /><br />
+                <label for="pressTheButton">Enter your Phone number: </label>
+                <input type="text" name="CphNumber" /><br />
+
+                <input type="submit" value="Call" />
+            </form>
+        </div>
+
+        <div class="text">
+            <form action="url" method="GET">
+                <h2>Reach out to us by Text</h2><br>
+                <label for="pressTheButton">Kindly enter your name: </label>
+                <input type="text" name="TuserName" /><br />
+                <label for="pressTheButton">Enter your Phone number: </label>
+                <input type="text" name="TphNumber" /><br />
+
+                <input type="submit" value="Text" />
+            </form>
+        </div>
+
+        <div class="mail">
+            <form action="sessionId">
+                <h2>Reach out to us by E-mail</h2><br>
+                <label for="pressTheButton">Kindly enter your name: </label>
+                <input type="text" name="EuserName" /><br />
+                <label for="pressTheButton">Enter your Phone number: </label>
+                <input type="text" name="EphNumber" /><br />
+
+                <input type="submit" value="E-mail" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
