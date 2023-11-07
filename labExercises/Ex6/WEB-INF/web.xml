@@ -41,4 +41,26 @@
         <url-pattern>/LaaI</url-pattern>
     </servlet-mapping>
 
+    <!-- for S&P 500 data -->
+    <servlet>
+        <servlet-name>sp500</servlet-name>
+        <servlet-class>sp500</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sp500</servlet-name>
+        <url-pattern>/sp500</url-pattern>
+    </servlet-mapping>
+
+    <!-- for nasdaq composite index data -->
+    <servlet>
+        <servlet-name>nasdaq</servlet-name>
+        <servlet-class>nasdaq</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>nasdaq</servlet-name>
+        <url-pattern>/nasdaq</url-pattern>
+    </servlet-mapping>
+
 </web-app>
