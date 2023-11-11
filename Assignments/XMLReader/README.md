@@ -12,4 +12,5 @@ The delay in the browser's output is a maximum of 200ms from the save time.
 - Now go to the web browser and type "http://localhost/< your directory name>/< filename.html>" (eg: "http://localhost/XMLReader/index.html") 
 
 
-<img alt="gif of the output" src="/Output/gif_1.gif">
+<!-- <img alt="gif of the output" src="/Output/gif_1.gif"> -->
+![ "gif of the output"](/Output/gif_2.gif)
